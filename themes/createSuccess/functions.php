@@ -125,8 +125,6 @@ wp_enqueue_style( 'icomoon_fonts', get_stylesheet_directory_uri() . '/layouts/ic
 
 add_action( 'wp_enqueue_scripts', 'load_icomoon_fonts' );
 
-
-
 /**
  * Implement the Custom Header feature.
  */
