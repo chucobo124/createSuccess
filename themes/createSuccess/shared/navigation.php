@@ -11,7 +11,7 @@ wp_enqueue_style( 'navigation', "{$dir}/layouts/navigation.css"  ); ?>
   </button>
   <div id='home-button'>
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-      <?php bloginfo( 'name' ); ?>
+      <img width="150px" src=<?php echo "{$dir}/images/icon.png" ?>
     </a>
   </div><!-- #home-button-->
   <?php

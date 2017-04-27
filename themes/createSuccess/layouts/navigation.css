@@ -20,7 +20,7 @@
   justify-content: flex-start;
 }
 .main-nav-style #home-button{
-  padding: 5px;
+  padding: 14px 5px;
   flex: 3 1 0px;
 }
 .main-nav-style #hamburger{
@@ -43,7 +43,9 @@
   flex: 8 1 0px;
   flex-direction: row-reverse;
 }
-
+#primary-menu li {
+  margin: 0px 10px 0px 0px;
+}
 #primary-menu li a{
   color: #7b7b7b;
 }
