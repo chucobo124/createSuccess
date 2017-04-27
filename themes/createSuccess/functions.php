@@ -117,6 +117,16 @@ function createsuccess_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'createsuccess_scripts' );
 
+function load_icomoon_fonts() {
+
+wp_enqueue_style( 'icomoon_fonts', get_stylesheet_directory_uri() . '/layouts/icomoon.css' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'load_icomoon_fonts' );
+
+
+
 /**
  * Implement the Custom Header feature.
  */

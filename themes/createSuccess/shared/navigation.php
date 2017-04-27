@@ -3,6 +3,7 @@
 $dir = get_template_directory_uri();
 wp_enqueue_style( 'navigation', "{$dir}/layouts/navigation.css"  ); ?>
 <nav id="site-navigation" class="main-navigation main-nav-style" role="navigation">
+  <span class="icon-paragraph-justify"></span>
   <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
     <?php esc_html_e( 'Primary Menu', 'createsuccess' ); ?>
   </button>
