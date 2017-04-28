@@ -15,9 +15,13 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'createsuccess' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'createsuccess' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'createsuccess' ), 'createsuccess', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			<div class='footer-icon'>
+				icon image
+			</div>
+			<div class='contact-address'>
+			</div>
+			<div class='contact-tel'>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
