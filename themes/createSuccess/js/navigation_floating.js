@@ -41,19 +41,5 @@ $(function() {
                position: 'static',
           });
         }
-        // if (subMenuShouldBeFixed) {
-        //   subMenu.css({
-        //       top: '0px',
-        //       position: 'fixed',
-        //   });
-        //   nav.css({
-        //       position: 'fixed',
-        //       margin: '10px 0px 0px 25px'
-        //   });
-        // } else if(!subMenuShouldBeFixed){
-        //   subMenu.css({
-        //       position: 'absolute',
-        //   });
-        // }
     });
 });
