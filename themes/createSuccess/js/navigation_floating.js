@@ -1,7 +1,7 @@
 $(function() {
     // Stick the #nav to the top of the window
     var nav = $('.main-navigation');
-    var subMenu = $('.sub-menu-block');
+    var subMenu = $('.sub-menu');
     var navHomeY = nav.offset().top;
     var subMenuHomeY = subMenu.offset().top;
     var isFixed = false;

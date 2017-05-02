@@ -16,6 +16,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+		<div class="sub-menu-block">
+      <div class='sub-menu'></div>
+    </div>
 		<?php
 		if ( have_posts() ) :
 
