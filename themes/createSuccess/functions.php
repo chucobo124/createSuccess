@@ -130,6 +130,19 @@ wp_enqueue_style( 'icomoon_fonts', get_stylesheet_directory_uri() . '/layouts/ic
 
 add_action( 'wp_enqueue_scripts', 'load_icomoon_fonts' );
 
+function create_silde_show_widget() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'Main Silde Show', 'createsuccess' ),
+		'id'            => 'main-slide-show',
+		'description'   => esc_html__( 'Add widgets here.', 'slid-widget' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="slid-show-widget-title">',
+		'class_name'    => 'slide-show-widget',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'create_silde_show_widget' );
 /**
  * Implement the Custom Header feature.
  */

@@ -65,3 +65,7 @@
   display:block;
   height: 100px;
 }
+
+.SlideshowWidget {
+	margin: 0px !important;
+}
