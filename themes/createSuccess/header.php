@@ -40,6 +40,7 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
+		<?php dynamic_sidebar( 'main-slide-show' ); ?>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
