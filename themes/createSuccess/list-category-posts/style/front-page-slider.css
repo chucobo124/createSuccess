@@ -16,6 +16,7 @@
   flex: 1 1 0px;
 }
 .front-page-slider .product-thumbnail a{
+  padding: 0px 15px;
   height: 300px;
   display:block;
 }
