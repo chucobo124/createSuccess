@@ -1,4 +1,6 @@
 <?php
+$dir = get_template_directory_uri();
+wp_enqueue_style( 'front-page', "{$dir}/layouts/front-page.css"  );
 /**
  * The main template file
  *

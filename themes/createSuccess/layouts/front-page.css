@@ -1,0 +1,45 @@
+h2{
+  font-size: 3em;
+  margin: 0px 0px;
+}
+.about-us-block{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.about-us-block .about-us-image{
+  background: #f1652f;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0px;
+  height: 370px;
+}
+.about-us-block .about-us-image img{
+  width: 78%;
+  position: absolute;
+  display: block;
+  left: -78%;
+}
+.about-us-block .about-us-article{
+  position: relative;
+  overflow: hidden;
+  background: #f1652f;
+  height: 370px;
+  flex: 1 1 0px;
+}
+.about-us-block .about-us-image-buttom{
+  flex: 1 1 100vw;
+}
+.about-us-block .floating-article{
+  position: absolute;
+  display: block;
+  z-index: 998;
+  width: 100%;
+  padding: 50px 30px 50px 30px;
+  background: white;
+  right: -50vw;
+}
+.about-us-block .about-us-image-buttom img{
+  width: 90vw;
+  height: 100%;
+}
